@@ -1,3 +1,6 @@
 .card {
-  background: pink;
+  background: rgba(97, 218, 251, 0.12);
+  border: 1px solid rgba(97, 218, 251, 0.35);
+  border-radius: 12px;
+  padding: 1.25rem;
 }

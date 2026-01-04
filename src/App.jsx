@@ -1,9 +1,10 @@
-import Text from "./components/Text/Text"
+// import Text from "./components/Text/Text"
+import Card from "./components/Card/Card"
 
 function App() {
   return (
     <>
-      <Text />
+      <Card />
     </>
   )
 }
