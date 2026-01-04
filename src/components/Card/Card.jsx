@@ -6,11 +6,11 @@ const Card = () => {
     color: "blue",
     fontSize: "2rem",
     textAlign: "center",
+    marginTop: "1rem"
   }
-  
+
   return (
     <>
-      {/* <div style={textStyles}> */}
       <div className="card">
         Soy una card !
       </div>
@@ -29,6 +29,14 @@ const Card = () => {
           basadas en componentes, con un renderizado eficiente y un flujo de datos
           predecible.
         </p>
+      </div>
+
+      <div style={{ ...textStyles }}>
+        Hola soy un texto con estilos en línea spread operator !
+      </div>
+
+      <div style={textStyles}>
+        Hola soy un texto con estilos en línea destructurado !
       </div>
     </>
   )
